@@ -114,7 +114,7 @@ p a:hover::after
 }
 ::selection
 {
-	background: #adc867;
+	background: #bbc1ff;
 	color: #ffffff;
 }
 p::selection
@@ -150,6 +150,16 @@ img
 {
 	max-width: 100%;
 }
+
+.imgsocial
+{
+	max-width: 100%;
+	height: auto;
+	margin: auto;
+	max-width : 20px;
+}
+
+
 button:active
 {
 	outline: none;
@@ -320,7 +330,7 @@ section
 {
 	width: 247px;
 	height: 61px;
-	background: #adc867;
+	background: #677ac8;
 	text-align: center;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;

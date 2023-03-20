@@ -116,7 +116,7 @@ p a:hover::after
 }
 ::selection
 {
-	background: #adc867;
+	background: #bbc1ff;
 	color: #ffffff;
 }
 p::selection
@@ -152,6 +152,16 @@ img
 {
 	max-width: 100%;
 }
+
+.imgsocial
+{
+	max-width: 100%;
+	height: auto;
+	margin: auto;
+	max-width : 20px;
+}
+
+
 button:active
 {
 	outline: none;
@@ -695,6 +705,7 @@ section
 	background: #ffffff;
 	padding-top: 92px;
 	padding-bottom: 92px;
+	
 }
 .intro_text
 {
@@ -711,6 +722,50 @@ section
 .intro_image > img
 {
 	display: none;
+}
+
+.intro_content
+{
+	background: #ffffff;
+	padding-top: 36px;
+	padding-left: 30px;
+	padding-right: 15px;
+	padding-bottom: 45px;
+	margin-bottom: 28px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+
+.intro_content::after
+{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: '';
+	border: solid 2px #14b4ea;
+	visibility: hidden;
+	opacity: 0;
+	pointer-events: none;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.intro_content:hover::after
+{
+	visibility: visible;
+	opacity: 1;
+}
+.intro_content:hover
+{
+	box-shadow: 0px 14px 35px rgba(0,0,0,0.23);
 }
 
 /*********************************

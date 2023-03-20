@@ -92,7 +92,7 @@ p a:hover::after
 }
 ::selection
 {
-	background: #adc867;
+	background: #bbc1ff;
 	color: #ffffff;
 }
 p::selection
@@ -563,6 +563,7 @@ section
 .home
 {
 	height: 261px;
+	background-image: url(8a61474ece19dc2420153f43e127bb18.jpg);
 }
 .home_content
 {
