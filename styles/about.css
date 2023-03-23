@@ -546,7 +546,7 @@ section
 }
 .main_nav ul li.active a
 {
-	color: #ffffff;
+	color: #0e0d0d;
 }
 .main_nav ul li a:hover
 {
@@ -587,6 +587,31 @@ section
 .hamburger:hover i
 {
 	color: #4433e0;
+}
+
+.sous{
+    display: none;
+    position: left;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: center;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 1px 2px #CCC;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
 }
 
 /*********************************
